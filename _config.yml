@@ -15,6 +15,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 
 # Site Settings
+theme                    : minimal-mistakes-jekyll
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Welcome to Luciusite"
