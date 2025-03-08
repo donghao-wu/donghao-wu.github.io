@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "If you want to know me"
-permalink: /page/
+permalink: /contact/
 ---
 
 Contact info
