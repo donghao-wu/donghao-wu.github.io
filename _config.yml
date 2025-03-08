@@ -325,7 +325,6 @@ defaults:
       type: "pages"
     values:
       layout: "splash"
-      feature_row: "home_feature"
       author_profile: true
       read_time: true
       comments: # true
