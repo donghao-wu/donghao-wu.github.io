@@ -16,9 +16,12 @@ intro:
   - excerpt: "Welcome to Luciusite! A place to explore creativity and knowledge."
 
 ---
-{% assign home_feature = site.data.ui-text.home_feature %}
-{% include feature_row id="home_feature" %}
+{% include feature_row id="home_feature" type="center" %}
 
+<!-- Add Related Posts Section -->
+<div class="related-posts">
+  <h2>You May Also Enjoy</h2>
+  {% include related_posts %}
+</div>
 
-{{ site.data.home_features.home_feature }}
 

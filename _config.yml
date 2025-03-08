@@ -34,6 +34,7 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 layout                   : "splash"
+related_posts            : true
 #navigation settings
 navigation               :
   header                 : main
