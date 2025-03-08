@@ -25,7 +25,7 @@ description              : "In this site, you can see a lot of random but intere
 url                      : "https://github.com/donghao-wu/donghao-wu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "donghao-wu/donghao-wu.github.io"
-teaser                   : "/assets/images/test.jpg"
+teaser                   : "/assets/images/test2.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           : "Luciusite"
 breadcrumbs              : true
