@@ -2183,7 +2183,7 @@ bg-BG:
 # Another locale
 # --------------
 #
-
+ 
 home_feature:
   -  image_path: "/assets/images/datavis.png"
      alt: "Image description"
