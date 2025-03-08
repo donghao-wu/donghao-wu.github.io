@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Donghao(Lucius) Wu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "In this site, you will see a lot of random but interesting things"
   location         : "Somewhere"
   email            :
   links:
