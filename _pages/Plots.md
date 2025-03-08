@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Plots that I created"
 permalink: /plots/
 ---
