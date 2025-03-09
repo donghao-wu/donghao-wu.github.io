@@ -1,0 +1,21 @@
+about_feature:
+  - image_path: "/assets/images/research.png"
+    alt: "Research"
+    title: "Research & Analytics"
+    excerpt: "I love analyzing data and uncovering insights."
+    btn_label: "Learn More"
+    btn_class: "btn--info"
+
+  - image_path: "/assets/images/coding.png"
+    alt: "Coding"
+    title: "Machine Learning"
+    excerpt: "I enjoy building ML models and training AI."
+    btn_label: "See My Work"
+    btn_class: "btn--info"
+
+  - image_path: "/assets/images/design.png"
+    alt: "Design"
+    title: "Visualization & Design"
+    excerpt: "Presenting data in a visually appealing way."
+    btn_label: "Explore My Visuals"
+    btn_class: "btn--info"

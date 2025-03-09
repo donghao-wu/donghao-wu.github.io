@@ -330,3 +330,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  #_page
+  - scope:
+      path: "_pages/about.md"
+      type: "pages"
+    values:
+      layout: "splash"
+
