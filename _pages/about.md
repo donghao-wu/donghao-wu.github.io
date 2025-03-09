@@ -6,9 +6,31 @@ permalink: /about/
 header:
   overlay_image: "/assets/images/a_cover.png"
   overlay_filter: 0.5
-  caption: "That's me"
+  caption: "Credit: Unsplash"
 excerpt: "A little bit about me..."
 read_time: false
+
+about_feature:
+  - image_path: "/assets/images/research.png"
+    alt: "Research"
+    title: "Research & Analytics"
+    excerpt: "I love analyzing data and uncovering insights."
+    btn_label: "Learn More"
+    btn_class: "btn--info"
+
+  - image_path: "/assets/images/a_cover.png"
+    alt: "Coding"
+    title: "Machine Learning"
+    excerpt: "I enjoy building ML models and training AI."
+    btn_label: "See My Work"
+    btn_class: "btn--info"
+
+  - image_path: "/assets/images/datavis.png"
+    alt: "Design"
+    title: "Visualization & Design"
+    excerpt: "Presenting data in a visually appealing way."
+    btn_label: "Explore My Visuals"
+    btn_class: "btn--info" 
 ---
 
 ## 👋 Hi, I'm Lucius/Donghao/吴东昊 b（￣▽￣）d　 
@@ -31,7 +53,8 @@ Glad to see you here o(*￣▽￣*)ブ
 ---
 
 ## **📍 My Work & Interests**
-{% include feature_row id="about_feature" %}
+
+{% include feature_row id="about_feature" %} 
 
 ---
 
