@@ -1,0 +1,13 @@
+donghao-wu:
+  name: "Donghao (Lucius) Wu"
+  avatar: "/assets/images/author.png"
+  bio: "I love exploring Data Science, Machine Learning, and Data Visualization."
+  location: "Somewhere on Earth"
+  email: "donghao@uchicago.edu"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/donghao-wu"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/donghao-wu-a5a609237/"
