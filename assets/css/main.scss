@@ -7,3 +7,10 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.archive__item-teaser img {
+  width: 100%;   /* 让所有图片宽度填充整个容器 */
+  height: 200px; /* 设置固定高度，避免大小不一 */
+  object-fit: cover; /* 保证图片不会拉伸，自动裁剪 */
+  border-radius: 10px; /* 可选，给图片加一点圆角 */
+}

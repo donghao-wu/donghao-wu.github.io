@@ -14,23 +14,17 @@ about_feature:
   - image_path: "/assets/images/research.png"
     alt: "Research"
     title: "Research & Analytics"
-    excerpt: "I love analyzing data and uncovering insights."
-    btn_label: "Learn More"
-    btn_class: "btn--info"
+    excerpt: "Me at SPSP 2024 presenting my project"
 
-  - image_path: "/assets/images/a_cover.png"
+  - image_path: "/assets/images/Coding.png"
     alt: "Coding"
     title: "Machine Learning"
-    excerpt: "I enjoy building ML models and training AI."
-    btn_label: "See My Work"
-    btn_class: "btn--info"
+    excerpt: "Proof of my struggle with teaching machine"
 
-  - image_path: "/assets/images/datavis.png"
+  - image_path: "/assets/images/about3.png"
     alt: "Design"
     title: "Visualization & Design"
-    excerpt: "Presenting data in a visually appealing way."
-    btn_label: "Explore My Visuals"
-    btn_class: "btn--info" 
+    excerpt: "Tell me this is not cool"
 ---
 
 ## 👋 Hi, I'm Lucius/Donghao/吴东昊 b（￣▽￣）d　 
