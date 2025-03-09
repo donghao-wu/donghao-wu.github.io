@@ -87,6 +87,9 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+sidebar                  :
+  nav                    : "projects"
+  show                   :  true
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -120,7 +123,7 @@ analytics:
 # Site Author
 author:
   name             : "Donghao(Lucius) Wu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/author.png"
   bio              : "In this site, you will see a lot of random but interesting things"
   location         : "Somewhere"
   email            :
@@ -319,21 +322,34 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # 全局默认设置（适用于所有页面）
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "splash"
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
-  #_page
+
+
+  # 仅对 About 页面使用 splash 布局
   - scope:
       path: "_pages/about.md"
       type: "pages"
     values:
       layout: "splash"
+
+  # 仅对 Projects 页面启用 Sidebar
+  - scope:
+      path: "_pages/project.md"
+      type: "pages"
+    values:
+      layout: "single"
+      sidebar:
+        nav: "projects"
+
+  
 

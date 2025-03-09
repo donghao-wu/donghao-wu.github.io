@@ -2,9 +2,14 @@
 layout: single
 title: "Projects"
 permalink: /projects/
+sidebar:
+  nav: "projects"
+header:
+  overlay_image: "/assets/images/a_cover.png"
+  overlay_filter: 0.5
+  caption: "Credit: Unsplash"
+excerpt: "Go Coding, Go Struggling"
+author_profile: true
+read_time: false
 ---
 
-Here are some of my projects:
-- Project 1
-- Project 2
-- Project 3

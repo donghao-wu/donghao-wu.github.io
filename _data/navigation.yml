@@ -10,3 +10,26 @@ main:
     url: "/plots/"
   - title: "Contact"
     url: "/contact/"
+    
+projects:
+  - title: "📊 Data Visualization"
+    children:
+      - title: "Final Project of Data Visualization"
+        url: /projects/datavis1/
+      - title: "Tableau Dashboard"
+        url: /projects/datavis2/
+
+  - title: "🤖 Machine Learning"
+    children:
+      - title: "Crime Data and Machine Learning"
+        url: /projects/ml1/
+      - title: "Fradulent Transaction Classification"
+        url: /projects/ml2/
+
+  - title: "🛠 Other Projects"
+    children:
+      - title: "Web Scraping with Python"
+        url: /projects/other1/
+      - title: "Blockchain for Finance"
+        url: /projects/other2/
+
