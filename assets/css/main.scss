@@ -29,7 +29,7 @@ search: false
   height: auto;  /* 保持高度按比例缩放 */
   border-radius: 10px;  /* 如果想要圆角 */
 }
-
+/*chaneg logo to hoveravle */
 .site-logo img {
   transition: transform 0.3s ease-in-out;
 }
@@ -37,3 +37,6 @@ search: false
 .site-logo img:hover {
   transform: scale(1.1);
 }
+
+
+
