@@ -26,7 +26,7 @@ url                      : "https://github.com/donghao-wu/donghao-wu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "donghao-wu/donghao-wu.github.io"
 teaser                   : "/assets/images/test2.png"
-logo                     : "/assets/images/logo.png"
+logo                     : "/assets/images/logo2.png"
 masthead_title           : "Luciusite"
 breadcrumbs              : true
 words_per_minute         : 200

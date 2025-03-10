@@ -10,7 +10,7 @@ header:
   overlay_image: "/assets/images/datavis_cover.png"
   overlay_filter: 0.5
   caption: "Credit: Unsplash"
-excerpt: "Exploring insights through stunning data visualization"
+excerpt: "Exploring influential factors of crime incidents"
 toc: true  
 toc_label: "Project Overview"
 toc_sticky: true
