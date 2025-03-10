@@ -24,3 +24,8 @@ search: false
   margin: auto;
 }
 
+.site-logo img {
+  width: 120px;  /* 调整 Logo 宽度 */
+  height: auto;  /* 保持高度按比例缩放 */
+  border-radius: 10px;  /* 如果想要圆角 */
+}
