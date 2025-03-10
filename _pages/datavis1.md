@@ -94,7 +94,9 @@ This project employs various data visualization techniques to make crime trends 
 - Checkboxes for time selection enable filtering crime trends by different quarters.
 - Dynamic tooltips in visualizations provide contextual insights when hovering over data points.
 
-## Results
+## ✅Results
+
+According to the results obtained from the plots, 
 
 {% include gallery id="gallery" %}
 
