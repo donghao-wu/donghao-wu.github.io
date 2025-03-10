@@ -17,7 +17,7 @@ author: donghao-wu
 ## 🚀 Welcome to My Projects!
 Here you can explore various projects related to:
 - 📊 **Data Visualization** 
-  - This will include some of the projects I did in class
+  - [Crime Incidents and Data Visualization](/projects/datavis1/)
   - Also include some interesting stuff that I play around
 - 🤖 **Machine Learning** 
   - Training models to predict and classify.
