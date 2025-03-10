@@ -14,3 +14,13 @@ search: false
   object-fit: cover; /* 保证图片不会拉伸，自动裁剪 */
   border-radius: 10px; /* 可选，给图片加一点圆角 */
 }
+
+.gallery img {
+  width: 250px !important;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
