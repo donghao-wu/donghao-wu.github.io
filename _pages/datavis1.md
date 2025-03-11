@@ -166,6 +166,60 @@ gg <- ggplot(ncvs_data, aes_string(x = input$variable_interest)) +
   </div>
 </div>
 
+```
+incident_median <- median(ncvs_p1$total_incident, na.rm = TRUE)
+ncvs_p1 <- ncvs_p1 %>%
+  mutate(Risk_Group = ifelse(total_incident > incident_median, "High-Risk Group", "Low-Risk Group"))
+```
+
+<div class="result-container reverse">
+  <div class="result-text">
+    <p>Diving a little bit deeper, I calculate the median of the total crime incident and classify the <strong>high-risk group as the total
+    incidents is higher than the median</strong> and <strong>lower-risk group as total incidents is lower than the median.</strong> I used a scatter plot and 
+    highlight the high-risk group. Using a scatter plot, audience can see more detail of each risk group. From the plot, we can see that the <strong>high
+    risk group contains mostly age group ranging from 20 to around 65 </strong> with some exceptions such as age 43 and age 54</p>
+  </div>
+  <div class="result-image">
+    <img src="/assets/images/scatterplot_age.png" alt="Bar Chart">
+  </div>
+</div>
+
+### Regional Variation of Crime Incidents in the U.S.
+```
+ncvs_data <- ncvs_data %>%
+  mutate(Region_Label = recode(as.character(REGION),
+                               "1" = "Northeast",
+                               "2" = "Midwest",
+                               "3" = "South",
+                               "4" = "West"))
+```
+If you want to know which states are included in each label, please check the detailed code [here](https://github.com/MACS40700/assignment-5-donghao-wu)
+
+<div class="result-container reverse">
+  <div class="result-text">
+    <p>The third relationship that I explored is the variation of crime incidents across the U.S.
+    The regions in the data was separated into four different labels: Northeast, Midwest, South, and West
+    . The data shows that the <strong>West region has the highest number of crime incidents</strong> while the <strong>Northeast region has the 
+    the lowest number of crime incidents</strong>. Using a map plot is always helpful to provide a geographical sense to the audiences
+    instead of purely numbers.</p>
+  </div>
+  <div class="result-image">
+    <img src="/assets/images/region_map.png" alt="Bar Chart">
+  </div>
+</div>
+
+
+<div class="result-container">
+  <div class="result-image">
+    <img src="/assets/images/region_barplot.png" alt="Scatter Plot">
+  </div>
+  <div class="result-text">
+    <p>It also could not go wrong to use a histogram to provide more details on the data. With the histogram, audiences can have a 
+    better comparison across each region and the histogram allow the audience to explore the actual numeric differences of the number
+    of crime incidents across each region instead of a relatively ambiguous comparison.</p>
+  </div>
+</div>
+
 
 
 [View Code on GitHub](https://github.com/MACS40700/assignment-5-donghao-wu)
