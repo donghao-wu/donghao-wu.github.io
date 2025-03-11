@@ -18,7 +18,11 @@ author: donghao-wu
 Here you can explore various projects related to:
 - 📊 **Data Visualization** 
   - [Crime Incidents and Data Visualization](/projects/datavis1/)
+<<<<<<< HEAD
   - [My Tableau Dashboard](/projects/Tableau/)
+=======
+  - Also include some interesting stuff that I play around
+>>>>>>> 1a912090e6ed1834c7025b8d970675df64465c05
 - 🤖 **Machine Learning** 
   - Training models to predict and classify.
   - Crime data regression project & Fraudulent transaction classification
