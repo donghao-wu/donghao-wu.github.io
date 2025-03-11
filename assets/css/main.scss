@@ -9,10 +9,10 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 .archive__item-teaser img {
-  width: 100%;   /* 让所有图片宽度填充整个容器 */
-  height: 200px; /* 设置固定高度，避免大小不一 */
-  object-fit: cover; /* 保证图片不会拉伸，自动裁剪 */
-  border-radius: 10px; /* 可选，给图片加一点圆角 */
+  width: 100%;   
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 10px; 
 }
 
 .gallery img {
@@ -25,9 +25,9 @@ search: false
 }
 
 .site-logo img {
-  width: 120px;  /* 调整 Logo 宽度 */
-  height: auto;  /* 保持高度按比例缩放 */
-  border-radius: 10px;  /* 如果想要圆角 */
+  width: 120px;  
+  height: auto;  
+  border-radius: 10px;  
 }
 /*chaneg logo to hoveravle */
 .site-logo img {
@@ -38,5 +38,22 @@ search: false
   transform: scale(1.1);
 }
 
+.result-container {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
 
+.result-container.reverse {
+  grid-template-columns: 1fr 1fr !important;
+}
+
+.result-container.reverse .result-image {
+  grid-column: 2 !important; /* 让图片移动到右侧 */
+}
+
+.result-container.reverse .result-text {
+  grid-column: 1 !important; /* 让文字移动到左侧 */
+}
 

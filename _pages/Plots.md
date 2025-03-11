@@ -17,7 +17,7 @@ toc_sticky: true
 
 interactive_gallery:
   - url: "/assets/plotly1.html"  
-    image_path: "/assets/images/plot4.png"  # 缩略图
+    image_path: "/assets/images/plot4.png"
     alt: "Scatter Plot"
     title: "📈 Scatter Plot"
 

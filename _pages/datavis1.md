@@ -60,13 +60,13 @@ determinants of total crime incidents.
 
 **What are some influential factors of total crime incidents?**
 
-## 🔢 Introduction to the Data set
+## 🔢 Introduction to the Dataset
 
 **Data Source**
 
 The National Crime Victimization Survey(NCVS) Data is downloaded from [NACJD website](https://www.icpsr.umich.edu/web/NACJD/studies/38090/summary) and will be saved as a csv file named **ncvs** in this project. The NCVS was designed with **four primary objectives**: (1) to develop detailed 
 information about the victims and consequences of crime, (2) to estimate the number and types of crimes not reported to the police, (3) 
-to provide uniform measures of selected types of crimes, and (4) to permit comparisons over time and types of areas. Original data set contains 
+to provide uniform measures of selected types of crimes, and (4) to permit comparisons over time and types of areas. Original dataset contains 
 **8043 observations**, each observation is a victim from crime and **81 variables**. (Not all the variables will be included in this project)
 
 ## 🛠️Methods
@@ -97,9 +97,35 @@ For more detailed data cleaning and transformation process: [view the code on gi
 
 ## ✅Results
 
-According to the results obtained from the plots, 
+According to the results obtained from the plots, there are several important conclusions
+can be extracted. In the following sections, I will use several plots to demonstrate some 
+important relationships
 
-{% include gallery id="gallery" %}
+### Crime trend across the quarters
+<div class="result-container reverse">
+  <div class="result-text">
+    <p>The bar chart represents the distribution of categories. 
+       Category A has the highest frequency, followed by Category B and C.</p>
+  </div>
+  <div class="result-image">
+    <img src="/assets/images/quarter_plot.png" alt="Bar Chart">
+  </div>
+</div>
+
+### Relationship between the number of crime incident and age
+<div class="result-container">
+  <div class="result-image">
+    <img src="/assets/images/plot1.png" alt="Scatter Plot">
+  </div>
+  <div class="result-text">
+    <p>The histogram showing on the left is showing how total number of crime incidents vary
+    across different ages. As seen in the plot, the total number of crime incident is showing
+    an increase after 25 years old and this trend will start to decrease after age 60. The 
+    distribution shows that the probability of getting involved in a crime incident is higher 
+    for middle-age people.</p>
+  </div>
+</div>
+
 
 
 [View Code on GitHub](https://github.com/MACS40700/assignment-5-donghao-wu)
