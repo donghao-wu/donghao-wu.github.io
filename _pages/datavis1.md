@@ -244,6 +244,65 @@ mutate(Income_Label = recode(INCOME,
   </div>
 </div>
 
-## 🌟 Discussion
+## 🌟 Discussion:Insights from Crime Data Visualization
 
-[View Code on GitHub](https://github.com/MACS40700/assignment-5-donghao-wu)
+The analysis conducted in this project provides valuable insights into crime patterns based on seasonality, age, geographic distribution, and economic factors. 
+By leveraging visual tools such as heatmaps, scatter plots, and histograms, key crime trends become more interpretable, supporting evidence-based policymaking 
+and crime prevention strategies.
+
+### Seasonal Trends and Unexpected Findings
+
+One of the most counterintuitive findings in this study relates to the seasonality of crime incidents. Previous literature (McCord & Ratcliffe, 2018) suggests that crime, 
+particularly aggressive offenses, tends to rise in warmer months due to increased human interaction and heightened aggression in higher temperatures. However, the quarterly 
+crime analysis suggests that crime incidents are actually higher in Q1 and Q4, corresponding to autumn and winter.
+
+- <strong>Potential Explanations:</strong>
+  - <strong>Reporting Bias</strong>: There may be an increased tendency to report crimes in colder months due to heightened awareness or fewer distractions (e.g., summer vacations)
+  - <strong>Types of Crime Matter</strong>: While violent crime might increase in summer, other types of crime (e.g., property crime, fraud) may occur more frequently in colder seasons.
+  - <strong>Social and Economic Factors</strong>: Winter months could correlate with economic hardship, potentially increasing incidents of theft or domestic crimes.
+
+This discrepancy suggests a need for further investigation into seasonal crime variations by specific crime types rather than aggregating all offenses into a single trend.
+
+### Age and Crime Risk: Identifying High-Risk Groups
+
+Crime victimization by age follows a predictable yet striking trend. As observed in the age distribution histogram, crime incidents tend to <strong>increase after age 25, peak between ages 30-50, 
+and gradually decline after age 60.</strong>
+
+- This aligns with <strong> criminological theories </strong> that suggest that <strong>individuals in their 30s and 40s, often more active in the workforce and social environments, might be at a greater risk of both offending and victimization.</strong>
+- Interestingly, <strong>certain age groups (e.g., 43, 54) stand out as anomalies,</strong> indicating that additional socio-economic or occupational factors may contribute to heightened risk.
+
+<strong> Policy Implications: </strong>
+
+- Crime prevention initiatives should focus on individuals in their working-age years, particularly in areas with high exposure to social interaction (e.g., public transportation, nightlife areas).
+- Programs targeting crime awareness and self-defense measures for middle-aged adults could be beneficial.
+
+### Geographic Crime Patterns: Regional Disparities
+
+Crime does not affect all regions equally, and as the U.S. regional analysis indicates, the West experiences the highest crime rate, while the Northeast has the lowest.
+
+- <strong>Possible Reasons for Regional Differences:</strong>
+  - Urbanization Levels: The West region contains high-density cities (e.g., Los Angeles, San Francisco, Seattle), where crime rates tend to be higher due to population density and economic disparity
+  - Law Enforcement Differences: States within the Northeast may have stricter law enforcement policies or lower crime reporting
+  - Cultural and Economic Variations: Differences in poverty rates, gun laws, and economic opportunities across regions could contribute to variations in crime rates
+
+<strong> Policy Recommendations: </strong>
+- For high-crime regions: Strengthen community policing efforts, improve economic development programs, and enhance public surveillance systems in urban areas
+- For low-crime regions: Investigate whether low crime rates are due to genuine safety or under-reporting
+
+### The Role of Income in Crime Victimization
+
+One of the most critical takeaways from this study is the relationship between crime and income level.
+
+- As the heatmap suggests, crime incidents are highest among households earning between $50K-$75K, not the lowest-income groups.
+- This contradicts the common perception that the lowest-income groups are at the greatest risk.
+  - <strong> Possible Explanations: </strong>
+    - Middle-class individuals may have higher exposure to environments where crime occurs (e.g., commuting in public spaces, working in offices, shopping in commercial areas).
+    - Certain lower-income groups may have lower reporting rates due to distrust in law enforcement.
+
+## 📂 Additional Resources
+
+- [View Codes & Data on Github](https://github.com/MACS40700/assignment-5-donghao-wu)
+- [Shiny Interactive Application(not working currently)](https://luciuswu.shinyapps.io/assignment-5-donghao-wu/)
+
+
+
