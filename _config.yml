@@ -1,165 +1,90 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
+# 主题设置
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
+# 站点基本设置
+locale: "en-US"
+title: "Welcome to Luciusite"
+title_separator: "-"
+subtitle: "Magical World of Mine"
+name: "Donghao(Lucius)Wu"
+description: "In this site, you can see a lot of random but interesting stuff"
+url: "https://github.com/donghao-wu/donghao-wu.github.io"
+repository: "donghao-wu/donghao-wu.github.io"
+teaser: "/assets/images/test2.png"
+logo: "/assets/images/logo3.png"
+masthead_title: "Luciusite"
+breadcrumbs: true
+words_per_minute: 200
+enable_copy_code_button: true
 
-# Site Settings
-locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Welcome to Luciusite"
-title_separator          : "-"
-subtitle                 : "Magical World of Mine"
-name                     : "Donghao(Lucius)Wu"
-description              : "In this site, you can see a lot of random but interesting stuff"
-url                      : "https://github.com/donghao-wu/donghao-wu.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "donghao-wu/donghao-wu.github.io"
-teaser                   : "/assets/images/test2.png"
-logo                     : "/assets/images/logo3.png"
-masthead_title           : "Luciusite"
-breadcrumbs              : true
-words_per_minute         : 200
-enable_copy_code_button  : true
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
-layout                   : "splash"
-related_posts            : true
-#navigation settings
-navigation               :
-  header                 : main
-  footer                 : main
-  cn-header              : cn-main
+# 导航栏设置
+navigation:
+  header: main
+  footer: main
+
+# **关键：确保 `/cn/` 目录使用 `cn-main`**
+defaults:
+  - scope:
+      path: "_pages/cn"
+      type: "pages"
+    values:
+      navigation:
+        header: cn-main
+
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      navigation:
+        header: main
+      permalink: "/:title/"  # 确保 `/index.md` 仍然是 `/`
+
+# 文章评论（可根据需要启用）
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-lunr:
-  search_within_pages    : # true, false (default)
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-sidebar                  :
-  nav                    : "projects"
-  show                   :  true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
+  provider: false
 
-# Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+# 搜索功能
+search: true
+search_provider: lunr
+
+# 侧边栏设置
+sidebar:
+  nav: "projects"
+  show: true
+
+# SEO 相关设置
+google_site_verification:
+bing_site_verification:
+naver_site_verification:
+yandex_site_verification:
+baidu_site_verification:
+
+# 社交媒体分享
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: Person
+  links:
+    - "https://github.com/donghao-wu"
+    - "https://www.linkedin.com/in/donghao-wu-a5a609237/"
 
-# Analytics
-analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
-
-# Site Author
+# 网站作者信息
 author:
   name: "Donghao (Lucius) Wu"
-  avatar: "/assets/images/author.png" 
+  avatar: "/assets/images/author.png"
   bio: "I love exploring Data Science, Machine Learning, and Data Visualization."
   location: "Somewhere on Earth"
   email: "donghao@uchicago.edu"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/donghao-wu"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/donghao-wu-a5a609237/"
 
-# Site Footer
+# 页脚信息
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/donghao-wu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/donghao-wu-a5a609237/"
 
-
-# Reading Files
+# 读取文件设置
 include:
   - .htaccess
   - _pages
@@ -171,90 +96,35 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
   - node_modules
   - package.json
   - package-lock.json
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
+
+# 编码格式
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
+# Markdown 解析
 markdown: kramdown
 highlighter: rouge
-lsi: false
 excerpt_separator: "\n\n"
-incremental: false
 
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-
-# Sass/SCSS
+# SCSS 设置
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
+# 页面 URL 结构
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+# 分页设置
+paginate: 5
 paginate_path: /page:num/
 
-# Pagination with jekyll-paginate-v2
-# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-#   for configuration details
-pagination:
-  # Set enabled to true to use paginate v2
-  # enabled: true
-  debug: false
-  collection: 'posts'
-  per_page: 10
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  category: 'posts'
-  tag: ''
-  locale: ''
-  trail:
-    before: 2
-    after: 2
-
-
-# Plugins (previously gems:)
+# Jekyll 插件
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -263,7 +133,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-# mimic GitHub Pages with --safe
+# Mimic GitHub Pages 安全模式
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -271,80 +141,16 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
+# 归档设置
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
-
-# HTML Compression
-# - https://jch.penibelst.de/
+# HTML 压缩
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      navigation:
-        header: main
-
-  - scope:
-      path: "cn"
-      type: "pages"
-    values:
-      navigation:
-        header: cn-main  # 让 Minimal Mistakes 识别 cn-main
- 
-
-
-
-  # 仅对 About 页面使用 splash 布局
-  - scope:
-      path: "_pages/about.md"
-      type: "pages"
-    values:
-      layout: "splash"
-
-  # 仅对 Projects 页面启用 Sidebar
-  - scope:
-      path: "_pages/project.md"
-      type: "pages"
-    values:
-      layout: "single"
-      sidebar:
-        nav: "projects"
-
-
-
-  
-

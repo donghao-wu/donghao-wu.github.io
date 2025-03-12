@@ -2,6 +2,8 @@
 layout: single
 title: "Plots that I created"
 permalink: /cn/plots/
+navigation:
+  header: cn-main
 sidebar:
   nav: "projects"
 read_time: false

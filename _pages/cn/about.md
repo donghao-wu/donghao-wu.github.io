@@ -3,6 +3,8 @@ layout: splash
 title: "About Me"
 subtitle: "This is all about me"
 permalink: /cn/about/
+navigation:
+  header: cn-main
 header:
   overlay_image: "/assets/images/a_cover.png"
   overlay_filter: 0.5

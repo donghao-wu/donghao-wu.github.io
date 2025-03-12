@@ -4,6 +4,8 @@ title: "Projects"
 permalink: /cn/projects/
 sidebar:
   nav: "projects"
+navigation:
+  header: cn-main
 header:
   overlay_image: "/assets/images/p_cover.png"
   overlay_filter: 0.5
