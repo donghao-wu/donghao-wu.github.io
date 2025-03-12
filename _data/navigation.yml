@@ -14,14 +14,18 @@ main:
     url: "/cn/"
 
 cn-main:
-  - title: "主页"
+  - title: "首页"
     url: "/cn/"
   - title: "关于我"
     url: "/cn/about/"
   - title: "项目"
     url: "/cn/projects/"
+  - title: "可视化"
+    url: "/cn/plots/"
+  - title: "联系我们"
+    url: "/cn/contact/"
   - title: "English"
-    url: "/"  # 切换回英文版
+    url: "/"
 
 projects:
   - title: "📊 Data Visualization"

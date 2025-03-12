@@ -2,8 +2,8 @@
 layout: splash
 title: "欢迎来到 Luciusite"
 permalink: /cn/
-sidebar:
-  nav: "cn-main"  
+navigation:
+  header: cn-main  # 确保 Minimal Mistakes 识别这个导航栏
 header:
   overlay_image: "/assets/images/test2.png"
   overlay_filter: 0.5
@@ -12,8 +12,7 @@ header:
     - label: "探索更多"
       url: "/cn/about/"
       class: "btn btn--primary"
-excerpt: "清醒的疯狂" 
-
+excerpt: "清醒的疯狂"
 read_time: false
 
 intro: 

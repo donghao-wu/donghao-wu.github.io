@@ -39,6 +39,7 @@ related_posts            : true
 navigation               :
   header                 : main
   footer                 : main
+  cn-header              : cn-main
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -314,8 +315,6 @@ defaults:
       path: ""
       type: "pages"
     values:
-      sidebar:
-        nav: "main"  # 默认英文版导航
       navigation:
         header: main
 
@@ -323,8 +322,6 @@ defaults:
       path: "cn"
       type: "pages"
     values:
-      sidebar:
-        nav: "cn-main"  # 中文版导航
       navigation:
         header: cn-main  # 让 Minimal Mistakes 识别 cn-main
  
