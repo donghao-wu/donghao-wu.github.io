@@ -281,13 +281,13 @@ and gradually decline after age 60.</strong>
 Crime does not affect all regions equally, and as the U.S. regional analysis indicates, the West experiences the highest crime rate, while the Northeast has the lowest.
 
 - <strong>Possible Reasons for Regional Differences:</strong>
-  - Urbanization Levels: The West region contains high-density cities (e.g., Los Angeles, San Francisco, Seattle), where crime rates tend to be higher due to population density and economic disparity
-  - Law Enforcement Differences: States within the Northeast may have stricter law enforcement policies or lower crime reporting
-  - Cultural and Economic Variations: Differences in poverty rates, gun laws, and economic opportunities across regions could contribute to variations in crime rates
+  - <strong>Urbanization Levels</strong>: The West region contains high-density cities (e.g., Los Angeles, San Francisco, Seattle), where crime rates tend to be higher due to population density and economic disparity
+  - <strong>Law Enforcement Differences</strong>: States within the Northeast may have stricter law enforcement policies or lower crime reporting
+  - <strong>Cultural and Economic Variations</strong>: Differences in poverty rates, gun laws, and economic opportunities across regions could contribute to variations in crime rates
 
 <strong> Policy Recommendations: </strong>
-- For high-crime regions: Strengthen community policing efforts, improve economic development programs, and enhance public surveillance systems in urban areas
-- For low-crime regions: Investigate whether low crime rates are due to genuine safety or under-reporting
+- <strong>For high-crime regions</strong>: Strengthen community policing efforts, improve economic development programs, and enhance public surveillance systems in urban areas
+- <strong>For low-crime regions</strong>: Investigate whether low crime rates are due to genuine safety or under-reporting
 
 ### The Role of Income in Crime Victimization
 
