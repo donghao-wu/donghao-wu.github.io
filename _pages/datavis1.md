@@ -130,7 +130,9 @@ gg <- ggplot(ncvs_data, aes_string(x = input$variable_interest)) +
 ```
 <div class="result-container">
   <div class="result-image">
-    <img src="/assets/images/plot1.png" alt="Scatter Plot">
+    <a href = "/assets/age_hist.html" target = "_blank">
+      <img src="/assets/images/age_hist.png" alt="Scatter Plot">
+    </a>
   </div>
   <div class="result-text">
     <p>The histogram showing on the left is showing how total number of crime incidents vary
