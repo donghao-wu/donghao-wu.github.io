@@ -123,7 +123,7 @@ analytics:
 # Site Author
 author:
   name: "Donghao (Lucius) Wu"
-  avatar: "/assets/images/author.png"  # 确保路径正确
+  avatar: "/assets/images/author.png" 
   bio: "I love exploring Data Science, Machine Learning, and Data Visualization."
   location: "Somewhere on Earth"
   email: "donghao@uchicago.edu"
@@ -310,17 +310,25 @@ compress_html:
 
 # Defaults
 defaults:
-  # 全局默认设置（适用于所有页面）
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: "splash"
-      author_profile: true
-      read_time: false
-      comments: # true
-      share: true
-      related: true
+      sidebar:
+        nav: "main"  # 默认英文版导航
+      navigation:
+        header: main
+
+  - scope:
+      path: "cn"
+      type: "pages"
+    values:
+      sidebar:
+        nav: "cn-main"  # 中文版导航
+      navigation:
+        header: cn-main  # 让 Minimal Mistakes 识别 cn-main
+ 
+
 
 
   # 仅对 About 页面使用 splash 布局
@@ -338,6 +346,8 @@ defaults:
       layout: "single"
       sidebar:
         nav: "projects"
+
+
 
   
 

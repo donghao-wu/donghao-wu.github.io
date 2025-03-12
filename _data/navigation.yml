@@ -10,7 +10,19 @@ main:
     url: "/plots/"
   - title: "Contact"
     url: "/contact/"
-    
+  - title: "中文网站"
+    url: "/cn/"
+
+cn-main:
+  - title: "主页"
+    url: "/cn/"
+  - title: "关于我"
+    url: "/cn/about/"
+  - title: "项目"
+    url: "/cn/projects/"
+  - title: "English"
+    url: "/"  # 切换回英文版
+
 projects:
   - title: "📊 Data Visualization"
     children:
