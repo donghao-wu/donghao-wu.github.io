@@ -17,32 +17,6 @@ toc_label: "Project Overview"
 toc_icon: "fa-solid fa-palette"
 toc_sticky: true
 
-gallery:
-  - url: "/assets/images/plot1.png"
-    image_path: "/assets/images/plot1.png"
-    alt: "Histogram"
-    title: "📉 Relationship between age and number of incidents"
-
-  - url: "/assets/images/plot2.png"
-    image_path: "/assets/images/plot2.png"
-    alt: "Histogram"
-    title: "🔥 Seasonal Crime Trends"
-
-  - url: "/assets/images/plot3.png"
-    image_path: "/assets/images/plot3.png"
-    alt: "Histogram"
-    title: "🔢 Crime Rates Across U.S. Regions"
-    
-  - url: "/assets/images/plot4.png"
-    image_path: "/assets/images/plot4.png"
-    alt: "Scatter Plot"
-    title: "🔢 High-risk vs. Low-risk Groups"
-    
-  - url: "/assets/images/plot5.png"
-    image_path: "/assets/images/plot5.png"
-    alt: "Heatmap"
-    title: "🔢 Heatmap analysis of Income Levels"
-    
 ---
 
 ## 📊 Introduction to the Project
@@ -139,7 +113,9 @@ gg <- ggplot(ncvs_data, aes(x = factor(QUARTER), y = NUM_INCIDENTS, fill = facto
     and changing the color corresponding to the season will improve the aesthetics of the plot</p>
   </div>
   <div class="result-image">
-    <img src="/assets/images/quarter_plot.png" alt="Bar Chart">
+    <a href = "/assets/quarter_plot.html" target = "_blank">
+      <img src="/assets/images/quarter_plot.png" alt="Bar Chart">
+    </a>
   </div>
 </div>
 
@@ -180,7 +156,9 @@ ncvs_p1 <- ncvs_p1 %>%
     risk group contains mostly age group ranging from 20 to around 65 </strong> with some exceptions such as age 43 and age 54</p>
   </div>
   <div class="result-image">
-    <img src="/assets/images/scatterplot_age.png" alt="Bar Chart">
+    <a href = "/assets/scatterplot_age.html" target = "_blank">
+      <img src="/assets/images/scatterplot_age.png" alt="Bar Chart">
+    </a>
   </div>
 </div>
 
@@ -204,14 +182,18 @@ If you want to know which states are included in each label, please check the de
     instead of purely numbers.</p>
   </div>
   <div class="result-image">
-    <img src="/assets/images/region_map.png" alt="Bar Chart">
+    <a href = "/assets/region_map.html" target = "_blank">
+      <img src="/assets/images/region_map.png" alt="Bar Chart">
+    </a>
   </div>
 </div>
 
 
 <div class="result-container">
   <div class="result-image">
-    <img src="/assets/images/region_barplot.png" alt="Scatter Plot">
+    <a href = "/assets/region_barplot.html" target = "_blank">
+      <img src="/assets/images/region_barplot.png" alt="Scatter Plot">
+    </a>
   </div>
   <div class="result-text">
     <p>It also could not go wrong to use a histogram to provide more details on the data. With the histogram, audiences can have a 
@@ -220,6 +202,46 @@ If you want to know which states are included in each label, please check the de
   </div>
 </div>
 
+### Relationship between crime incidents and income levels
 
+```
+mutate(Income_Label = recode(INCOME, 
+                               "1" = "<$5K", "2" = "$5K-$7.5K", "3" = "$7.5K-$10K",
+                               "4" = "$10K-$12.5K", "5" = "$12.5K-$15K", "6" = "$15K-$17.5K",
+                               "7" = "$17.5K-$20K", "8" = "$20K-$25K", "9" = "$25K-$30K",
+                               "10" = "$30K-$35K", "11" = "$35K-$40K", "12" = "$40K-$50K",
+                               "13" = "$50K-$75K", "15" = "$75K-$100K", "16" = "$100K-$150K",
+                               "17" = "$150K-$200K", "18" = ">$200K"))
+```
+
+<div class="result-container reverse">
+  <div class="result-text">
+    <p>The final exploration in the project examines the relationship between the number of incidents and income levels. The plot on the 
+    right indicates that the likelihood of being involved in crime incidents is <strong>highest for the households with an income between $50K and $75K</strong>, 
+    while it is <strong>lowest for those earning between $5K and $7.5K.</strong> </p>
+  </div>
+  <div class="result-image">
+    <a href = "/assets/heatmap_income.html" target = "_blank">
+      <img src="/assets/images/heatmap_income.png" alt="Bar Chart">
+    </a>
+  </div>
+</div>
+
+
+
+<div class="result-container">
+  <div class="result-image">
+    <a href = "/assets/plotly2.html" target = "_blank">
+      <img src="/assets/images/incomebar.png" alt="Income Bar">
+    </a>
+  </div>
+  <div class="result-text">
+    <p>Alternatively, the distribution can also be displayed by bar plot. If the variation on the heatmap is not easy to visualize for some groups of audience,
+    a bar plot like this one can be a little more helpful. Beyond which income level is associated with the highest probability of getting involved in crime incidents
+    , audiences can make more detailed comparison (e.g. the number of incidents happened to income level 8 is around the half of income level 13)</p>
+  </div>
+</div>
+
+## 🌟 Discussion
 
 [View Code on GitHub](https://github.com/MACS40700/assignment-5-donghao-wu)
