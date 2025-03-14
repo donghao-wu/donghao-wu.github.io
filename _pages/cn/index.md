@@ -41,7 +41,7 @@ feature_row:
     title: "联系我"
     excerpt: "如果你想更了解我的话"
     url: "/contact/"
-    btn_label: "Get in Touch"
+    btn_label: "联系方式"
     btn_class: "btn--info"
 ---
 {% include feature_row %}
