@@ -3,7 +3,6 @@ layout: single
 classes: wide
 title: "Final Project of Data Visualization"
 permalink: /projects/datavis1/
-class: datavis-page
 sidebar:
   nav: "projects"
 read_time: false
