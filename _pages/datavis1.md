@@ -1,6 +1,6 @@
 ---
 layout: single
-classes: wide
+classes: wide datavis-page
 title: "Final Project of Data Visualization"
 permalink: /projects/datavis1/
 sidebar:
