@@ -60,7 +60,7 @@ ncvs_data <- ncvs_data %>%
   mutate(Region_Label = recode(REGION, `1` = "Northeast", `2` = "Midwest", `3` = "South", `4` = "West"))
 ```
 
-For complete data cleaning and transformation process: [view the code on github](https://github.com/MACS40700/assignment-5-donghao-wu)
+For complete data cleaning and transformation process: [view the code on github](https://github.com/donghao-wu/Final_Project)
 
 **Visualization Techniques**
 
@@ -168,7 +168,7 @@ ncvs_data <- ncvs_data %>%
                                "3" = "South",
                                "4" = "West"))
 ```
-If you want to know which states are included in each label, please check the detailed code [here](https://github.com/MACS40700/assignment-5-donghao-wu)
+If you want to know which states are included in each label, please check the detailed code [here](https://github.com/donghao-wu/Final_Project)
 
 <div class="result-container reverse">
   <div class="result-text">
@@ -296,7 +296,7 @@ One of the most critical takeaways from this study is the relationship between c
 
 ## 📂 Additional Resources
 
-- [View Codes & Data on Github](https://github.com/MACS40700/assignment-5-donghao-wu)
+- [View Codes & Data on Github](https://github.com/donghao-wu/Final_Project)
 - [Shiny Interactive Application(not working currently)](https://luciuswu.shinyapps.io/assignment-5-donghao-wu/)
 
 
