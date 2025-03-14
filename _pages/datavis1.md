@@ -228,7 +228,7 @@ mutate(Income_Label = recode(INCOME,
 
 <div class="result-container">
   <div class="result-image">
-    <a href = "/assets/plotly2.html" target = "_blank">
+    <a href = "/assets/incomebar.html" target = "_blank">
       <img src="/assets/images/incomebar.png" alt="Income Bar">
     </a>
   </div>
