@@ -179,8 +179,8 @@ If you want to know which states are included in each label, please check the de
     instead of purely numbers.</p>
   </div>
   <div class="result-image">
-    <a href = "/assets/region_map.html" target = "_blank">
-      <img src="/assets/images/region_map.png" alt="Bar Chart">
+    <a href = "/assets/crime_rate_map.html" target = "_blank">
+      <img src="/assets/images/crime_rate_map.png" alt="Bar Chart">
     </a>
   </div>
 </div>
