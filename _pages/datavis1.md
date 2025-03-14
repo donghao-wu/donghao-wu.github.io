@@ -12,11 +12,6 @@ header:
   overlay_filter: 0.5
   caption: "Relationship between income level and crime incidents"
 excerpt: "Exploring influential factors of crime incidents"
-toc: true  
-toc_label: "Project Overview"
-toc_icon: "fa-solid fa-palette"
-toc_sticky: true
-
 ---
 
 ## 📊 Introduction to the Project
