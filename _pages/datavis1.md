@@ -297,7 +297,7 @@ One of the most critical takeaways from this study is the relationship between c
 ## 📂 Additional Resources
 
 - [View Codes & Data on Github](https://github.com/donghao-wu/Final_Project)
-- [Shiny Interactive Application(not working currently)](https://luciuswu.shinyapps.io/assignment-5-donghao-wu/)
+- [Shiny Interactive Application](https://luciuswu.shinyapps.io/Final_Project/)
 
 
 
