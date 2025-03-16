@@ -24,7 +24,7 @@ about_feature:
   - image_path: "/assets/images/about3.png"
     alt: "设计"
     title: "数据可视化&设计"
-    excerpt: "这难道不酷么 /ᐠ .ᆺ. ᐟ\ﾉ"
+    excerpt: "这难道不酷么 ᐠ .ᆺ. ᐟ"
 ---
 
 ## 👋 Hi, 我是 Lucius/Donghao/吴东昊 b（￣▽￣）d　 
