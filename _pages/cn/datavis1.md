@@ -1,7 +1,6 @@
 
 ---
 layout: single
-classes: wide datavis-page
 title: "数据可视化项目"
 permalink: /cn/datavis1/
 sidebar:
