@@ -2,7 +2,7 @@
 ---
 layout: single
 title: "项目"
-permalink: cn/projects/
+permalink: /cn/projects/
 sidebar:
   nav: "projects"
 header:
