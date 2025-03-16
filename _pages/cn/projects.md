@@ -18,7 +18,7 @@ author: donghao-wu
 在这里你可以探索我做过的一些项目，包括:
 
 ### 📊 **数据可视化** 
-- [犯罪数量以及数据可视化](/cn/projects/datavis1/)
+- [犯罪数量以及数据可视化](/cn/datavis1/)
 - [我的 Tableau 面板](/cn/projects/Tableau/)
 
 ### 🤖 **机械学习** 
