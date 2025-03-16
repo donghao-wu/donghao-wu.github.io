@@ -14,7 +14,7 @@ about_feature:
   - image_path: "/assets/images/research.png"
     alt: "研究"
     title: "研究&分析"
-    excerpt: "我在SPSP大会上演讲我的研究项目"
+    excerpt: "这是我在SPSP大会上演讲我的研究项目"
 
   - image_path: "/assets/images/Coding.png"
     alt: "编程"
@@ -24,7 +24,7 @@ about_feature:
   - image_path: "/assets/images/about3.png"
     alt: "设计"
     title: "数据可视化&设计"
-    excerpt: "这难道不酷么"
+    excerpt: "这难道不酷么 /ᐠ .ᆺ. ᐟ\ﾉ"
 ---
 
 ## 👋 Hi, 我是 Lucius/Donghao/吴东昊 b（￣▽￣）d　 
@@ -39,14 +39,14 @@ about_feature:
 
 很开心在这里见到你 o(*￣▽￣*)ブ
 
-### 🏆 **My Expertise**
-- 📊 **Data Visualization** – Shout out to my beloved Dr. Jean Clipperton, I am now a fan of DataVis.
-- 🤖 **Machine&Deep Learning** – Using different linear, nonlinear models and Neuro Network to train a model is always fun. (Hopefully one day I can train a model that can predict the stock price so that I won't lose more money/(ㄒoㄒ)/~~)
-- 🧠 **Psychology** – And yes, I am a psychology major student who is deeply attracted by data analysis, visualization and training a ML model
+### 🏆 **我的专业领域**
+- 📊 **数据可视化** – 感谢Jean Clipperton博士，让我也成为了数据可视化的粉丝
+- 🤖 **机械学习&深度学习** – 使用不同的线性，非线性以及神经网络来训练模型往往是充满乐趣的～ (希望有一天我能训练出一个能完美预测股价的模型，这样我就不会继续亏钱了/(ㄒoㄒ)/~~)
+- 🧠 **心理学** – 是的，我是个心理学专业的学生，但是在数据分析，数据可视化以及训练机械学系模型的路上一去不复返
 
 ---
 
-## **📍 My Work & Interests**
+## **📍 我干过的一些项目及我的兴趣**
 
 {% include feature_row id="about_feature" %} 
 
