@@ -3,7 +3,7 @@
 layout: single
 classes: wide datavis-page
 title: "数据可视化项目"
-permalink: /cn/projects/datavis1/
+permalink: /cn/datavis1/
 sidebar:
   nav: "cn-projects"
 read_time: false
