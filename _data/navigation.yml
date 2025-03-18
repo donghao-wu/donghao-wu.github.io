@@ -38,9 +38,9 @@ projects:
   - title: "🤖 Machine Learning"
     children:
       - title: "Crime Data and Machine Learning"
-        url: /projects/ml1/
+        url: /projects/creg/
       - title: "Fradulent Transaction Classification"
-        url: /projects/ml2/
+        url: /projects/fclass/
 
   - title: "🛠 Other Projects"
     children:

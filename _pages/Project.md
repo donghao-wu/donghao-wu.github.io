@@ -20,8 +20,8 @@ Here you can explore various projects related to:
   - [Crime Incidents and Data Visualization](/projects/datavis1/)
   - [My Tableau Dashboard](/projects/Tableau/)
 - 🤖 **Machine Learning** 
-  - Training models to predict and classify.
-  - Crime data regression project & Fraudulent transaction classification
+  - [Crime Data Regression Project](/projects/creg/)
+  - [Fraudulent transaction classification](/projects/fclass/)
 - 🛠 **Other Projects** 
     - A mix of interesting experiments and tools.
 
