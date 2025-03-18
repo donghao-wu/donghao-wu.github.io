@@ -49,3 +49,26 @@ projects:
       - title: "Blockchain for Finance"
         url: /projects/other2/
 
+cn-projects:
+  - title: "📊 数据可视化"
+    children:
+      - title: "犯罪数据可视化"
+        url: /cn/projects/datavis1/
+      - title: "Tableau 可视化"
+        url: /cn/projects/datavis2/
+
+  - title: "🤖 机器学习"
+    children:
+      - title: "犯罪数据回归模型"
+        url: /cn/projects/creg/
+      - title: "诈骗分类模型"
+        url: /cn/projects/fclass/
+
+  - title: "🛠 其他项目"
+    children:
+      - title: "Python 爬虫"
+        url: /cn/projects/other1/
+      - title: "金融区块链"
+        url: /cn/projects/other2/
+
+

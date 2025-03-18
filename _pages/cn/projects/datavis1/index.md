@@ -1,18 +1,21 @@
+
+
 ---
 layout: single
+title: "数据可视化项目"
 classes: wide datavis-page
-title: "Final Project of Data Visualization"
-permalink: /projects/datavis1/
+permalink: /cn/projects/datavis1/
 sidebar:
-  nav: "projects"
+  nav: "cn-projects"
 read_time: false
 author_profile: false
 header:
   overlay_image: "/assets/images/plot6.png"
   overlay_filter: 0.5
-  caption: "Relationship between income level and crime incidents"
-excerpt: "Exploring influential factors of crime incidents"
+  caption: "犯罪数量与收入的关系图"
+excerpt: "探索能影响犯罪数量的因素"
 ---
+
 
 ## 📊 Introduction to the Project
 
@@ -298,6 +301,4 @@ One of the most critical takeaways from this study is the relationship between c
 
 - [View Codes & Data on Github](https://github.com/donghao-wu/Final_Project)
 - [Shiny Interactive Application](https://luciuswu.shinyapps.io/Final_Project/)
-
-
 

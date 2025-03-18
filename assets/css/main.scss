@@ -50,11 +50,65 @@ search: false
 }
 
 .result-container.reverse .result-image {
-  grid-column: 2 !important; /* 让图片移动到右侧 */
+  grid-column: 2 !important; 
 }
 
 .result-container.reverse .result-text {
-  grid-column: 1 !important; /* 让文字移动到左侧 */
+  grid-column: 1 !important; 
+}
+
+.datavis-page .result-container img {
+    width: 90%;  
+    max-width: 700px; 
+    display: block;
+    margin: 0 auto;  
+}
+
+.datavis-page .grid__wrapper img,
+.datavis-page .result-container img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.datavis-page .grid__wrapper img:hover,
+.datavis-page .result-container img:hover {
+    transform: scale(1.1); 
+}
+
+
+
+/* 更改字体 */
+.datavis-page {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px; 
+  color: #333; 
+  line-height: 1.7;
+}
+
+.datavis-page h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #222;
+}
+
+.datavis-page h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.datavis-page h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+.datavis-page p {
+  font-size: 17px;
+  color: #2b2b2b;
+  line-height: 1.8;
 }
 
 .nav-container {
