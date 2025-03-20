@@ -36,3 +36,42 @@ and will be saved as a csv file named ncvs in this project. The NCVS was designe
 (2) to estimate the number and types of crimes not reported to the police, (3) to provide uniform measures of selected types of crimes, and (4) to permit comparisons over time and types of areas. 
 Original data set contains **8043 observations**, each observation is a victim from crime and **81 variables**. (Not all the variables will be included in this project)
 
+### Code Implementation
+
+```
+#import packages and data
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+
+#load data
+ncvs = pd.read_csv('NCVS_2020.csv')
+```
+
+**Feature Selection**
+The features selected for this project will include `URBANICITY`, `GATED`, `MARITAL`, `AGE`, `SEX`, `RACE`,`ED`, `INCOME`, `REGION`, `WEAPON`. The target variable will be `NUM_INCIDENTS`
+
+```
+#select features and target
+selected_features = ["URBANICITY", "GATED", "MARITAL", "AGE", "SEX", "RACE", "ED", "INCOME", "REGION", "WEAPON", "NUM_INCIDENTS"]
+ncvs_new = ncvs[selected_features]
+
+#split the features into categorical and numerical
+unique_values = ncvs_new.nunique()
+categorical_features = ["URBANICITY", "GATED", "MARITAL", "SEX", "RACE", "ED", "REGION", "WEAPON"]
+numerical_features = ["AGE", "INCOME"]
+
+```
+
+
+
+<div class="result-container">
+  <div class="result-image">
+    <img src="/assets/images/eda.png" alt="Scatter Plot">
+  </div>
+  <div class="result-text">
+    <p>For the Explanatory Describtion Analysis (EDA), this project calculated the mean, standard deviation, 
+    min, max, and other relevant statistics, which are shown on the image on the left</p>
+  </div>
+</div>
