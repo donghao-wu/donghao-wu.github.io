@@ -13,3 +13,26 @@ header:
   caption: "Credit:Unsplash"
 excerpt: "Exploring influential factors of crime incidents"
 ---
+
+*If you are more interested in a slide version* [click here](https://gamma.app/docs/Crime-Data-Machine-Learning-clki9sxnuh0pkyd?mode=doc)
+*For the complete code* [click here](https://github.com/donghao-wu/Crime_ML)
+
+### Introduction to the Project
+
+Crime has been a widespread and serious issue in society since the establishment of laws. Researchers have extensively investigated the factors influencing crime rates. 
+Studies have shown that higher levels of inequality, unemployment, and poverty are strongly associated with increased crime rates (de Nadai et al., 2020). Beyond socio-economic factors, 
+research has also highlighted the impact of environmental conditions, such as temperature. McCord and Ratcliffe (2018) found that higher temperatures contribute to an increase in aggressive crimes. 
+Additionally, studies suggest that higher rates of gun ownership are linked to increased violent crime (Bhattacharya, 2020). Given the multitude of potential factors influencing crime, 
+this project will utilize data from the National Crime Victimization Survey (NCVS) and machine learning techniques to explore key determinants of total crime incidents.
+
+### Research Question
+
+What are some influential factors of total crime incidents?
+
+### Data Source
+
+The National Crime Victimization Survey(NCVS) Data is downloaded from their [official website](https://www.icpsr.umich.edu/web/NACJD/studies/38090/summary)
+and will be saved as a csv file named ncvs in this project. The NCVS was designed with four primary objectives: (1) to develop detailed information about the victims and consequences of crime, 
+(2) to estimate the number and types of crimes not reported to the police, (3) to provide uniform measures of selected types of crimes, and (4) to permit comparisons over time and types of areas. 
+Original data set contains **8043 observations**, each observation is a victim from crime and **81 variables**. (Not all the variables will be included in this project)
+
